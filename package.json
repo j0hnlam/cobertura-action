@@ -31,7 +31,16 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1",
+    "@babel/helpers": "^7.28.2",
+    "@octokit/plugin-paginate-rest": "^13.1.1",
+    "@octokit/request": "^10.0.3",
+    "@octokit/request-error": "^7.0.0",
+    "brace-expansion": "^4.0.1",
+    "braces": "^3.0.3",
+    "cross-spawn": "^7.0.6",
     "glob-promise": "^6.0.7",
+    "micromatch": "^4.0.8",
+    "undici": "^7.13.0",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
