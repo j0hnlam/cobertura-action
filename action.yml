@@ -1,4 +1,4 @@
-name: 'cobertura-report'
+name: 'cobertura-report-action'
 description: Report cobertura coverage reports in Pull Requests
 inputs:
   repo_token:
