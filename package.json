@@ -2,7 +2,6 @@
   "name": "cobertura-action",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "description": "GitHub Action to parse Cobertura coverage reports",
   "main": "index.js",
   "scripts": {
@@ -10,7 +9,7 @@
     "test": "jest --collectCoverage",
     "lint": "eslint src/",
     "format": "eslint --fix src/",
-    "package": "ncc build index.js",
+    "package": "ncc build index.js && rm -f dist/package.json",
     "package:watch": "ncc build index.js --watch"
   },
   "jest": {
