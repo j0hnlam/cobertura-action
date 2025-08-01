@@ -1,6 +1,6 @@
 # Cobertura action
 
-![](https://github.com/5monkeys/cobertura-action/workflows/Test/badge.svg)
+![](https://github.com/j0hnlam/cobertura-action/workflows/Test/badge.svg)
 
 GitHub Action which parse a [XML cobertura report](http://cobertura.github.io/cobertura/) and display the metrics in a GitHub Pull Request.
 
