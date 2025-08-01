@@ -29,6 +29,12 @@ jobs:
         with:
           name: coverage
           path: coverage/cobertura-coverage.xml
+      - name: Produce Coverage report
+        uses: ./
+        with:
+          path: coverage/cobertura-coverage.xml
+          minimum_coverage: 75
+          fail_below_threshold: true
 
   validate:
     runs-on: ubuntu-latest

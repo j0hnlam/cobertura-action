@@ -21,11 +21,8 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.workflow_run.head_commit.id }}
       - name: Download Coverage Artifacts
-        uses: dawidd6/action-download-artifact@v11
+        uses: actions/download-artifact@v4.3.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow: ${{ github.event.workflow_run.workflow_id }}
-          commit: ${{ github.event.workflow_run.head_commit.id }}
           name: coverage
           path: coverage
       - name: Produce Coverage report
