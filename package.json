@@ -2,6 +2,7 @@
   "name": "cobertura-action",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "GitHub Action to parse Cobertura coverage reports",
   "main": "index.js",
   "scripts": {
